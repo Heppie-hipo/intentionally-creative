@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intentionally Creative - Liquor Store Marketing Experts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Intentionally Creative</h2>
+            </div>
+            <div class="nav-menu">
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#process" class="nav-link">Process</a>
+                <a href="#results" class="nav-link">Results</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-cta">Book a Call</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>Industry-Leading Liquor Store Marketing</span>
+                </div>
+                <h1 class="hero-title">
+                    Transform Your Liquor Store Into a 
+                    <span class="gradient-text">Customer Magnet</span>
+                </h1>
+                <p class="hero-subtitle">
+                    We'll redesign your website, marketing strategy, and business presence in under 3 weeks, 
+                    then send 6,000+ local customers to your store in 6 months. Guaranteed.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">$700K+</span>
+                        <span class="stat-label">Revenue Generated</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Done For You</span>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <button class="btn-primary" onclick="bookCall()">
+                        <i class="fas fa-calendar-alt"></i>
+                        Book Your Strategy Call
+                    </button>
+                    <button class="btn-secondary" onclick="scrollToResults()">
+                        View Case Studies
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card">
+                    <div class="card-header">
+                        <div class="card-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="metric">
+                            <span class="metric-label">Monthly Revenue</span>
+                            <span class="metric-value">+$58,333</span>
+                            <span class="metric-change">↗ +127%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">New Customers</span>
+                            <span class="metric-value">1,247</span>
+                            <span class="metric-change">↗ +89%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Website Traffic</span>
+                            <span class="metric-value">12,450</span>
+                            <span class="metric-change">↗ +156%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problems Section -->
+    <section class="problems">
+        <div class="container">
+            <div class="section-header">
+                <h2>Are You Currently Struggling With...</h2>
+                <p>These are the top challenges every liquor store owner faces</p>
+            </div>
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-users-slash"></i>
+                    </div>
+                    <h3>Not Enough Customers?</h3>
+                    <p>Without a targeted marketing strategy, you're missing shoppers every day that go to your competitors instead of you.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>No Time or Staff to Execute?</h3>
+                    <p>Managing inventory, staff, and operations doesn't leave room for marketing. Without focus, your store falls behind.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <h3>Unsure Which Tactics Work?</h3>
+                    <p>Social media, paid ads, email campaigns? It's tough to know where to begin without wasting time and money.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-hero">
+        <div class="container">
+            <div class="testimonial-content">
+                <div class="testimonial-quote">
+                    <h2>We Made A Chicago Liquor Store <span class="highlight">+$700,000</span> in 2024</h2>
+                </div>
+                <blockquote>
+                    "We are up $700,000 in 2024 - I couldn't be happier with Alden's team for making it happen."
+                </blockquote>
+                <div class="testimonial-author">
+                    <div class="author-info">
+                        <span class="author-name">Pete</span>
+                        <span class="author-title">Store Owner, Retail Liquor Store</span>
+                        <span class="author-location">Chicago, IL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="why-us" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Work With Us?</h2>
+                <p>We're not just another marketing agency - we're liquor store specialists</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-wine-bottle"></i>
+                    </div>
+                    <h3>We Understand Liquor Stores</h3>
+                    <p>10+ years working with producers, distributors and retailers. We've grown stores just like yours, big and small.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>KPIs & Results First</h3>
+                    <p>Know where your money is going. Gain an unfair advantage with our proprietary retail liquor store insights.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>World-Class Team, 100% DFY</h3>
+                    <p>Our entire team works ONLY on liquor stores: graphics, ads, copywriting, SEO, City Hive fulfillment. All done for you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Process</h2>
+                <p>100% customized to every store, with 100% reliable results</p>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Audit & Strategy Development</h3>
+                        <p>We analyze your store's sales data, seasonal trends, and bestsellers, then combine it with our database of successful liquor stores nationwide.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Industry-Proven Implementation</h3>
+                        <p>We build a completely tailored plan for your store. Whether barrel picks, local favorites, or trending products - you'll stay ahead of competition.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Analysis & Optimization</h3>
+                        <p>100% done for you! We handle ads, website edits, Google accounts, geofencing, reporting, and continuously optimize campaigns.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>What's Included?</h2>
+                <p>Everything you need to grow your business as fast as physically possible</p>
+            </div>
+            <div class="services-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" onclick="showTab('new-customers')">Get More NEW Customers</button>
+                    <button class="tab-btn" onclick="showTab('current-customers')">Boost Current Customer Spend</button>
+                </div>
+                <div class="tab-content active" id="new-customers">
+                    <div class="services-grid">
+                        <div class="service-item">
+                            <i class="fas fa-desktop"></i>
+                            <h4>Website Design Refresh</h4>
+                            <p>Refine your site's branding and key pages for maximum conversion</p>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-search"></i>
+                            <h4>Google Account Audit</h4>
+                            <p>Optimize Search Console, Business Page, Analytics, and Ads</p>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h4>Geofencing Ads</h4>
+                            <p>Target shoppers going to competitors and drive them to your store</p>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-ad"></i>
+                            <h4>Google Ads</h4>
+                            <p>Industry-leading ads tailored to liquor retail for consistent new customers</p>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-search-plus"></i>
+                            <h4>On-Page SEO</h4>
+                            <p>Optimize existing pages and create new ones to outrank competitors</p>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-link"></i>
+                            <h4>Off-Page SEO</h4>
+                            <p>Build authority through Google Business Profile, citations, and backlinks</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="current-customers">
+                    <div class="services-grid">
+                        <div class="service-item">
+                            <i class="fas fa-envelope"></i>
+                            <h4>Tailored Emails</h4>
+                            <p>Personalized emails about your latest offers and events</p>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h4>Push & SMS Content</h4>
+                            <p>Real-time alerts for flash sales, exclusive deals, and events</p>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-print"></i>
+                            <h4>Design & Print Support</h4>
+                            <p>Ad materials, flyers, and handouts at short notice</p>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-analytics"></i>
+                            <h4>Customer Data Analysis</h4>
+                            <p>Track interactions and refine offers to boost ROI</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results" id="results">
+        <div class="container">
+            <div class="section-header">
+                <h2>Real Results for Clients</h2>
+                <p>These are the average results our merchants see in 3-4 months</p>
+            </div>
+            <div class="results-showcase">
+                <div class="results-chart">
+                    <h3>Website SEO Performance</h3>
+                    <div class="chart-container">
+                        <div class="chart-bar" data-value="85">
+                            <span class="bar-label">Organic Traffic</span>
+                            <span class="bar-value">+185%</span>
+                        </div>
+                        <div class="chart-bar" data-value="70">
+                            <span class="bar-label">Local Rankings</span>
+                            <span class="bar-value">+170%</span>
+                        </div>
+                        <div class="chart-bar" data-value="90">
+                            <span class="bar-label">Conversion Rate</span>
+                            <span class="bar-value">+190%</span>
+                        </div>
+                        <div class="chart-bar" data-value="65">
+                            <span class="bar-label">Page Speed</span>
+                            <span class="bar-value">+165%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="results-text">
+                    <h4>We've cracked the code on SEO in the retail liquor store niche</h4>
+                    <p>A primary benefit to working with a niche-specific agency is our deep understanding of what works in your industry.</p>
+                    <ul>
+                        <li>✓ Outrank national chains locally</li>
+                        <li>✓ Dominate "near me" searches</li>
+                        <li>✓ Capture high-intent shoppers</li>
+                        <li>✓ Build long-term organic growth</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <h3>Alden Morris | Founder</h3>
+                    <p>With more than 10 years of dedicated experience in the three tiers of US beverage, Alden leads a team of seasoned professionals known for their deep knowledge and proven results.</p>
+                    <p>Our staff comprises senior-level specialists in branding, graphic design, copywriting, SEO, and production management. This combination ensures our clients receive top-tier service and innovative strategies.</p>
+                    <div class="team-expertise">
+                        <div class="expertise-item">
+                            <i class="fas fa-palette"></i>
+                            <span>Branding & Design</span>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-pen-fancy"></i>
+                            <span>Copywriting</span>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-search"></i>
+                            <span>SEO Optimization</span>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-cogs"></i>
+                            <span>Production Management</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="team-photo-placeholder">
+                        <i class="fas fa-users"></i>
+                        <span>Expert Team</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>How will your service help me increase in-store traffic?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We use a combination of local SEO, geofencing ads, and Google Ads to target customers in your area who are actively looking for liquor stores. Our strategies are specifically designed to drive foot traffic to your physical location.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Can you integrate with my existing City Hive platform?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We're experts in the City Hive platform and can seamlessly integrate our marketing strategies with your existing setup to maximize efficiency and results.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>How do you measure success?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We track key metrics including website traffic, new customer acquisition, revenue growth, and ROI. You'll receive detailed monthly reports showing exactly how our efforts are impacting your bottom line.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Can you help me with promotions during the holidays?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We specialize in seasonal campaigns and holiday promotions. We'll create targeted campaigns for major holidays, special events, and seasonal trends to maximize your sales during peak periods.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Do I need to sign up for both offers?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No, you can choose the package that best fits your needs. Our "Get More NEW Customers" package is our core offering, while the "Content Marketing Add-On" is optional for stores wanting to boost current customer spend.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="contact">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Liquor Store?</h2>
+                <p>Join successful store owners who've increased their revenue by $700,000+ with our proven system.</p>
+                <button class="btn-primary large" onclick="bookCall()">
+                    <i class="fas fa-calendar-alt"></i>
+                    Book Your Free Strategy Call
+                </button>
+                <div class="cta-guarantee">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>100% Satisfaction Guaranteed</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Intentionally Creative</h3>
+                    <p>Liquor Store Marketing Experts</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#services">Services</a>
+                    <a href="#process">Process</a>
+                    <a href="#results">Results</a>
+                    <a href="#about">About</a>
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Intentionally Creative. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
