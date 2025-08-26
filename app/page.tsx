@@ -36,7 +36,7 @@ export default function Home() {
 
     // Navbar background on scroll
     const handleNavbarScroll = () => {
-      const navbar = document.querySelector('.navbar')
+      const navbar = document.querySelector('.navbar') as HTMLElement
       if (navbar) {
         if (window.scrollY > 100) {
           navbar.style.background = 'rgba(26, 26, 46, 0.98)'
